@@ -5,7 +5,7 @@ import json
 def parse_args():
     args = sys.argv[1:]
     if len(args) < 2:
-        print("Usage: httpcli METHOD URL [OPTIONS]")
+        print("Usage: clihttp METHOD URL [OPTIONS]")
         sys.exit(1)
 
     method = args[0].upper()
